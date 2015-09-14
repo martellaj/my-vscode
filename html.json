@@ -1,0 +1,19 @@
+/*
+	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
+*/
+{
+	"HTML comment": {
+		"prefix": "comment",
+		"body": [
+			"<!-- ${comment} \n	==================================== -->"
+		],
+		"description": "An HTML comment"
+	},
+	"Boostrap column": {
+		"prefix": "col",
+		"body": [
+			"<div class=\"col-${size}-${#}\">\n\n</div> <!-- col-${size}-${#} -->"
+		],
+		"description": "A Bootstrap column"
+	}
+}
