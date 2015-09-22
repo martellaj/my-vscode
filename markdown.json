@@ -1,0 +1,19 @@
+{
+/*
+	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
+*/
+	"Markdown comment": {
+		"prefix": "comment",
+		"body": [
+			"<!--- \n 	${comment} \n--->"
+		],
+		"description": "A Markdown comment"
+	},
+	"Add coffee ipsum to text": {
+		"prefix": "ipsum",
+		"body": [
+			"And qui frappuccino in so java, id carajillo body bar, dripper french press bar con panna cinnamon in, so aftertaste wings cream seasonal. Doppio in, cappuccino chicory iced instant plunger pot, galão cup filter redeye eu whipped. That sit medium, grounds trifecta as strong est americano variety, aroma, cup, extraction percolator in a cultivar percolator single origin java caffeine affogato to go. Single origin body aromatic, americano dark acerbic siphon galão, carajillo siphon doppio as in, plunger pot cinnamon skinny turkish single origin fair trade redeye. Shop rich sugar wings beans, cultivar, turkish redeye siphon organic to go doppio acerbic spoon arabica espresso coffee saucer coffee brewed. Kopi-luwak as so sugar breve bar ristretto, breve caramelization ristretto trifecta froth frappuccino foam. Siphon robust and mug, iced chicory, java and foam, skinny bar roast aged carajillo. \n\n Id mug kopi-luwak a, cortado mocha cultivar mazagran java rich skinny, latte foam mazagran eu, whipped caramelization grounds aroma con panna cream galão. Seasonal bar viennese iced, french press flavour mocha, whipped, white saucer viennese french press milk grinder. In caramelization in strong barista irish pumpkin spice beans aroma, spoon, cup plunger pot con panna, as pumpkin spice grinder half and half macchiato. Black variety saucer café au lait, plunger pot instant con panna, affogato, fair trade sugar latte saucer percolator body. Latte, shop, filter saucer wings americano beans mug percolator, barista qui bar froth saucer cappuccino con panna. Medium doppio flavour and, mocha french press espresso, aged, redeye, roast, milk con panna that skinny rich. White that ut, and lungo et, ut filter saucer, lungo robust, filter crema half and half doppio grinder."
+		],
+		"description": "Adds two paragraphs of coffee ipsum"
+	}
+}
