@@ -1,0 +1,6 @@
+// Place your settings in this file to overwrite the default settings
+{
+	"editor.wrappingColumn": 0,
+	"editor.tabSize": 2,
+	"editor.insertSpaces": true
+}
