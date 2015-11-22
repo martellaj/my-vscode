@@ -2,7 +2,7 @@
 	"Angular Controller": {
 		"prefix": "ngcontroller",
 		"body": [
-			"(function() {",
+			"(function () {",
 			"\t'use strict';",
 			"",
 			"\tangular",
@@ -10,16 +10,14 @@
 			"\t\t.controller('${Controller}Controller', ${Controller}Controller);",
 			"",
 			"\t${Controller}Controller.$inject = ['${dependency1}'];",
-			"\tfunction ${Controller}Controller(${dependency1}) {",
+			"\tfunction ${Controller}Controller (${dependency1}) {",
 			"\t\tvar vm = this;",
 			"\t\t$0",
-			"",
-			"\t\tactivate();",
 			"",
 			"\t\t// *********************************** //",
 			"\t\t// End of exposed properties and methods.",
 			"",
-			"\t\tfunction activate() { }",
+			"\t\t(function activate () { })();",
 			"\t}",
 			"})();"
 		],
@@ -28,7 +26,7 @@
 	"Angular Factory": {
 		"prefix": "ngfactory",
 		"body": [
-			"(function() {",
+			"(function () {",
 			"'use strict';",
 			"",
 			"\tangular",
@@ -36,7 +34,7 @@
 			"\t\t.factory('${Service}', ${Service});",
 			"",
 			"\t${Service}.$inject = ['${dependency1}'];",
-			"\tfunction ${Service}(${dependency1}) {",
+			"\tfunction ${Service} (${dependency1}) {",
 			"\t\tvar service = {",
 			"\t\t\t${exposedFn}:${exposedFn}",
 			"\t\t};",
@@ -55,7 +53,7 @@
 	"Angular Module": {
 		"prefix": "ngmodule",
 		"body": [
-			"(function() {",
+			"(function () {",
 			"\t'use strict';",
 			"",
 			"\tangular.module('${module}', [",
