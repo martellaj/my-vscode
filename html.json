@@ -5,7 +5,7 @@
 	"HTML comment": {
 		"prefix": "comment",
 		"body": [
-			"<!-- ${comment} \n	==================================== -->"
+			"<!-- ${comment} \n==================================== -->"
 		],
 		"description": "An HTML comment"
 	},
@@ -15,5 +15,19 @@
 			"<div class=\"col-${size}-${#}\">\n\n</div> <!-- col-${size}-${#} -->"
 		],
 		"description": "A Bootstrap column"
+	},
+  "EJS if": {
+		"prefix": "ejs-if",
+		"body": [
+			"<% if (${condition}) { %>\n  \n<% } %>\n"
+		],
+		"description": "An EJS if block"
+	},
+  "EJS value": {
+		"prefix": "ejs-value",
+		"body": [
+			"<%= ${value} %>"
+		],
+		"description": "An EJS value"
 	}
 }
