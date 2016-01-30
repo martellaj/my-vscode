@@ -1,6 +1,3 @@
-/*
-	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
-*/
 {
 	"HTML comment": {
 		"prefix": "comment",
@@ -9,25 +6,11 @@
 		],
 		"description": "An HTML comment"
 	},
-	"Boostrap column": {
-		"prefix": "col",
-		"body": [
-			"<div class=\"col-${size}-${#}\">\n\n</div> <!-- col-${size}-${#} -->"
-		],
-		"description": "A Bootstrap column"
-	},
-  "EJS if": {
-		"prefix": "ejs-if",
-		"body": [
-			"<% if (${condition}) { %>\n  \n<% } %>\n"
-		],
-		"description": "An EJS if block"
-	},
-  "EJS value": {
-		"prefix": "ejs-value",
-		"body": [
-			"<%= ${value} %>"
-		],
-		"description": "An EJS value"
-	}
+  "Boilerplate": {
+    "prefix": "boilerplate",
+    "body": [
+      "<!doctype html>\n<html class=\"no-js\" lang=\"\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t\t<title></title>\n\t\t<meta name=\"description\" content=\"\">\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t</head>\n\t<body>\n\t</body>\n</html>"
+    ],
+    "description": "Boilerplate HTML code"
+  }
 }
