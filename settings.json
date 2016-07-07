@@ -1,8 +1,12 @@
+// User settings
 {
   "editor.wrappingColumn": 0,
   "editor.tabSize": 4,
   "editor.insertSpaces": true,
-  "editor.renderWhitespace": true,
   "explorer.workingFiles.maxVisible": 50,
-  "editor.trimAutoWhitespace": true
+  "editor.renderWhitespace": true,
+  "editor.trimAutoWhitespace": true,
+  "files.trimTrailingWhitespace": true,
+  "workbench.editor.showTabs": false,
+  "editor.renderIndentGuides": true
 }
