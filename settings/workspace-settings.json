@@ -1,5 +1,4 @@
 // Workspace settings
-// Workspace settings
 {
     "search.excludeFolders": [
         ".git",
@@ -35,6 +34,7 @@
         "karma": true,
         "mock-service": true,
         "node_modules": false,
+        "scripts": true,
         "src/@microsoft": true,
         "src/@ms": true,
         "src/adal-angular": true,
